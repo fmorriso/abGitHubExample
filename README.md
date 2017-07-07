@@ -55,8 +55,8 @@ I created the Angular application using the following Angular-CLI command:
 cd c:\projects
 ng new abGitHubExample --skip-install --skip-tests --skip-commit --routing --style=scss 
 ```
-It is __extremely__ important to specifiy the `--skip-install` switch when running `ng new` 
-because we want to postpone installing the packages until after mkaing a few *adjustments* to `package.json` 
+It is __extremely__ important to specify the `--skip-install` switch when running `ng new` 
+because we want to postpone installing the packages until after making a few *adjustments* to `package.json` 
 that will insure we will be using the latest editions of those packages in our application.
 </li>
 <li>
@@ -70,7 +70,7 @@ ncu -a
 
 I edited `package.json` to change all of the @angular package versions back to ^4.0.0 to insure that the latest released editions would be installed.
 Here is a portion of package.json that shows the dependencies:
-```json
+```text
   "dependencies": {
     "@angular/animations": "^4.0.0",
     "@angular/common": "^4.0.0",
