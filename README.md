@@ -104,7 +104,7 @@ Here is a portion of package.json that shows the dependencies:
     "protractor": "~5.1.2",
     "ts-node": "~3.2.0",
     "tslint": "~5.5.0",
-    "typescript": "~2.4.1"
+    "typescript": "^2.0.0"
   }
 ```
 </li>
