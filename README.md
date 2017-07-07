@@ -109,7 +109,11 @@ Here is a portion of package.json that shows the dependencies:
 ```
 </li>
 <li>
-I installed the packages needed by the application
+I installed the packages needed by the application:
+
+```npm
+npm install
+```
 </li>
 </ol>
 ## Development server
